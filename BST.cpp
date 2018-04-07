@@ -239,7 +239,7 @@ int main()
     cout<<"Depth-First-Traversal (Pre-order)       "; dfs_pre(root); cout<<endl;
     cout<<"Depth-First-Traversal (In-order)/Sorted "; dfs_in(root); cout<<endl;
     cout<<"Depth-First-Traversal (Post-order)      "; dfs_post(root); cout<<endl;
-    Delete(root,15);
+    Delete(root,2);
     cout<<"Depth-First-Traversal (In-order)/Sorted "; dfs_in(root); cout<<endl;
     return 0;
 }
