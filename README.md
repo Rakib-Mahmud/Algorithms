@@ -1,2 +1,2 @@
-# Algorithms
-Different Algo implementation by me
+# Algorithms and Data Structures
+Different Algo and DS implementation
