@@ -84,6 +84,7 @@ void insert (int roll1,int roll2)
         newnode->roll=roll2;
         newnode->prev=previous_node;
         previous_node->next=newnode;
+        current_node->prev=newnode;
     }
 }
 void print()
